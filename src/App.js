@@ -1,12 +1,13 @@
 import React from 'react';
-import ListaClientes from './componente/listaClientes'
+import Clientes from './componente/listaClientes'
+import Personas from './componente/listaPersona'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>My React App app.js</h1>
-        <ListaClientes/>
+        <Clientes/>
       </header>
     </div>
   );
